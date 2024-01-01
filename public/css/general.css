@@ -1,0 +1,26 @@
+:root{
+    --roboto :'Roboto', sans-serif;
+    --cuerpotexto : 12px;
+    --titulos : 24px;
+    --precios : 18px;
+    --descuentos-descripciones : 16px;
+    --colorAmarillo : #EAC926;
+    --colorAzul : #03264C;
+    --colorceleste : #1259c3;
+    --colorgris: #666;
+    --colorblanco : #ebebeb;
+    --colorverde : #39b54a;     
+}
+
+* {
+    font-family: var(--roboto);
+}
+* a{
+    color: black;
+    text-decoration: none;
+}
+*p{
+font-size: var(--cuerpotexto)
+}
+
+

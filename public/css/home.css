@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+header {  
+    padding:0px;
+    margin: 0px;
+    background-color: var(--colorAmarillo);
+    
+}
+header img {
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+/* BARRA DE BUSQUEDA */
+.barra{
+    position: relative;
+    
+}
+input{
+    margin-left: 30px;
+    width: 300px;
+    padding: 10px;
+    padding-right: 35px;
+    padding-left: 50px;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+button{
+background-color: var(--colorblanco);
+padding: 10px 10px;
+position:absolute;
+border: 0;
+top: 0;
+bottom: 0;
+color: black;
+cursor: pointer;
+margin-top: 20px;
+margin-bottom: 1px;
+width: 40px;
+}
+
+/*"Compra en cuotas o tarjeta" */
+
+.titulo2 .tarjeta{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:12px
+}
+.titulo2 i {
+    padding-right: 20px;
+}
+.tarjeta{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+/*BURGER BOTON*/
+
+.burger-menu {
+    margin-top: 0px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: var(--colorblanco);
+    text-align: center;  
+}
+.burger-menu button{
+    background-color: var(--colorceleste);
+    height: 60px;
+    width: 70px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    bottom: 800px;
+    top: 700px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    left: 450px;
+    margin-top: 45px;
+    border-radius: 5px;
+}
+.burger-menu button i{
+    color: var(--colorblanco); 
+    font-size: 30px; 
+}
+
+/*LINKS*/
+
+.links{
+    padding-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.links li{
+    list-style-type: none;
+   
+}
+.linksPag a{
+    font-size: 12px;
+}
+
+/*MEIN*/
+
+/* BANNER */
+div img{
+    width: 980px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+.visita{
+    font-size: 24px;
+}
+
+
+/*FOOTER*/
+.credit{
+    text-align: center;
+    color: var(--colorceleste);
+    font-size: 2em;
+    
+}
+.credit i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.user{
+    text-align: center;
+    color: var(--colorceleste);
+    font-size: 2em;
+    
+}
+.user i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.regalo{
+  text-align: center;
+  color: var(--colorceleste);
+  font-size: 2em;
+  
+}
+.regalo i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.precio {
+    font-size: var(--precios);
+}
+.descuento {
+    font-size: var(--descuentos-descripciones);
+}
+.descripcion{
+    font-size: var(--descuentos-descripciones);
+}
+
