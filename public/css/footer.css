@@ -1,0 +1,71 @@
+/*FOOTER*/
+.credit{
+    text-align: center;
+    color: var(--colorceleste);
+    font-size: 2em;
+    
+}
+.credit i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.user{
+    text-align: center;
+    color: var(--colorceleste);
+    font-size: 2em;
+    
+}
+.user i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.regalo{
+  text-align: center;
+  color: var(--colorceleste);
+  font-size: 2em;
+  
+}
+.regalo i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+@media (min-width:361px){
+
+
+/*FOOTER*/
+.credit{}
+
+.credit i {}
+
+.user{}
+
+.user i {}
+
+.regalo{}
+
+.regalo i {}
+
+}
+
+
+@media (min-width:769px){
+
+
+    /*FOOTER*/
+    .credit{}
+    
+    .credit i {}
+    
+    .user{}
+    
+    .user i {}
+    
+    .regalo{}
+    
+    .regalo i {}
+    
+    
+    }
+

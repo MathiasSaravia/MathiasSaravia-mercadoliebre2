@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+header {
+    padding:0px;
+    margin: 0px;
+    background-color: var(--colorAmarillo);
+    padding-bottom: 0px;
+}
+header img {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+header img {}
+
+nav.linksPag{
+    display: none;
+}
+
+nav.linksPag ul.links{}
+
+nav.linksPag ul.links li{}
+
+nav.linksPag ul.links li a{}
+
+
+/* BARRA DE BUSQUEDA */
+.barra{
+    position: relative;
+    
+}
+input{
+    margin-left: 10px;
+    width: 50%;
+    padding: 10px;
+    padding-right: 35px;
+    padding-left: 50px;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+button{background-color: var(--colorblanco);
+    padding: 10px 10px;
+    position:absolute;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    color: black;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    width: 40px;
+    border: solid 1px var(--colorgris);}
+
+/*"Compra en cuotas o tarjeta" */
+
+.titulo2 .tarjeta{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:12px
+}
+.titulo2 i {
+    padding-right: 20px;
+}
+.tarjeta{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+/*BURGER BOTON*/
+
+div.burger-menu {
+    margin-top: 0px;
+    color: var(--colorblanco);
+    display: flex;
+    background: var(--colorceleste);
+    justify-content: center;
+    width: 10%;
+    border-radius: 5px;
+    height: 21px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 50%;
+    margin-bottom: 10px;
+}
+
+.burger-menu i{
+    color: var(--colorblanco);
+    font-size: 20px;
+    display: flex;
+}
+
+div.banner{
+    background-color: white;
+}
+
+div img{
+   
+    width: 100%;
+    height: 95px;
+    margin: 0;
+}
+.visita{
+    font-size: 24px;
+    text-align: left;
+}
+
+/*LINKS*/
+
+.links{
+    padding-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.links li{
+    list-style-type: none;
+   
+}
+.linksPag a{
+    font-size: 12px;
+}
+
+
+@media (min-width:361px){
+    
+/* HEADER */
+header {
+    /* padding-bottom: 1px; */
+}
+    
+header img {}
+
+nav.linksPag{
+    display: contents;
+}
+
+nav.linksPag ul.links{
+    margin-bottom: 20px;
+}
+
+nav.linksPag ul.links li{}
+
+nav.linksPag ul.links li a{}
+
+
+/* BARRA DE BUSQUEDA */
+.barra{}
+
+input{}
+
+button{}
+
+/*"Compra en cuotas o tarjeta" */
+
+.titulo2 .tarjeta{}
+
+.titulo2 i {}
+
+.tarjeta{}
+
+
+/*BURGER BOTON*/
+
+div.burger-menu {
+    display: none;
+}
+
+.burger-menu i{}
+
+/*LINKS*/
+
+.links{}
+
+.links li{}
+
+.linksPag a{}
+
+}
+
+
+@media (min-width:769px){
+    
+
+    /* HEADER */
+    header {}
+    
+    header img {}
+
+    nav.linksPag{}
+
+    nav.linksPag ul.links{}
+
+    nav.linksPag ul.links li{}
+
+    nav.linksPag ul.links li a{}
+    
+    /* BARRA DE BUSQUEDA */
+    .barra{}
+    
+    input{}
+    
+    button{}
+    
+    /*"Compra en cuotas o tarjeta" */
+    
+    .titulo2 .tarjeta{}
+    
+    .titulo2 i {}
+    
+    .tarjeta{}
+    
+    
+    /*BURGER BOTON*/
+    
+    div.burger-menu {}
+    
+    .burger-menu i{}
+    
+    /*LINKS*/
+    
+    .links{}
+    
+    .links li{}
+    
+    .linksPag a{}
+    
+    }
