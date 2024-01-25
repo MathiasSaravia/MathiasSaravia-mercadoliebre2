@@ -43,7 +43,8 @@ input{
     font-size: 1rem;
     margin-top: 20px;
 }
-button{background-color: var(--colorblanco);
+header.home button{
+    background-color: var(--colorblanco);
     padding: 10px 10px;
     position:absolute;
     border: 0;
@@ -54,7 +55,8 @@ button{background-color: var(--colorblanco);
     margin-top: 20px;
     margin-bottom: 1px;
     width: 40px;
-    border: solid 1px var(--colorgris);}
+    border: solid 1px var(--colorgris);
+    }
 
 /*"Compra en cuotas o tarjeta" */
 
