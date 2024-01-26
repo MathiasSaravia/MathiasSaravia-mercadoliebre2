@@ -10,9 +10,11 @@ header {
 
 }
 header img {
-    margin-left: 30px;
-    margin-top: 20px;
-    width: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 40%;
+    display: flex;
+    padding-right: 5px;
 }
 
 header img {}
@@ -28,13 +30,19 @@ nav.linksPag ul.links li{}
 nav.linksPag ul.links li a{}
 
 
+
 /* BARRA DE BUSQUEDA */
+header.home section.home{
+    display: flex;
+}
+
 .barra{
     position: relative;
-    
+    width: 54%;
+
 }
 input{
-    margin-left: 10px;
+    margin-left: 0px;
     width: 50%;
     padding: 10px;
     padding-right: 35px;
@@ -42,6 +50,8 @@ input{
     outline: none;
     font-size: 1rem;
     margin-top: 20px;
+    border: 0px;
+    border-radius: 5px;
 }
 header.home button{
     background-color: var(--colorblanco);
@@ -55,7 +65,10 @@ header.home button{
     margin-top: 20px;
     margin-bottom: 1px;
     width: 40px;
-    border: solid 1px var(--colorgris);
+    right: 6px;
+    background-color: white;
+    border-radius: 5px;
+    height: 39px;
     }
 
 /*"Compra en cuotas o tarjeta" */
@@ -141,23 +154,39 @@ header img {}
 
 nav.linksPag{
     display: contents;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav.linksPag ul.links{
     margin-bottom: 20px;
+    display: flex;
+    display: flex;
 }
 
-nav.linksPag ul.links li{}
+nav.linksPag ul.links li{
+    display: flex;
+    padding-left: 20px;
+}
 
-nav.linksPag ul.links li a{}
+nav.linksPag ul.links li a{
+    padding-right: 10px ;
+}
 
 
 /* BARRA DE BUSQUEDA */
+
+header.home section.home{}
+
 .barra{}
 
 input{}
 
-button{}
+header.home button{
+    right: 90px;
+    height: 39px;
+    right: 90px;
+}
 
 /*"Compra en cuotas o tarjeta" */
 
@@ -204,11 +233,16 @@ div.burger-menu {
     nav.linksPag ul.links li a{}
     
     /* BARRA DE BUSQUEDA */
+
+    header.home section.home{}
+
     .barra{}
     
     input{}
     
-    button{}
+  button{
+    right: 90px;
+  }
     
     /*"Compra en cuotas o tarjeta" */
     
