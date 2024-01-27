@@ -4,6 +4,9 @@ main.registro{
 
 
 main.registo button{
+
+    
+    /*
     background-color: var(--colorblanco);
     padding: 10px 10px;
     position:absolute;
@@ -15,5 +18,5 @@ main.registo button{
     margin-top: 20px;
     margin-bottom: 1px;
     width: 40px;
-    border: solid 1px var(--colorgris);
+    border: solid 1px var(--colorgris);*/
 }
