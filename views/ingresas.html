@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    
+</head>
+
+<body>
+
+    <header class="home">
+        <a href="/"><img width="" src="/img/logo-mercado-liebre.svg" alt="logo-mercado-liebre"></a>
+
+        <div class="barra">
+            <input type="text" placeholder="Buscar productos, marcas">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+
+        <div class="titulo2">
+            <h3 class="tarjeta"><i class="fa-solid fa-hand-holding-dollar"></i> Compra en cuotas y sin tarjetas de
+                credito</h3>
+        </div>
+
+        <nav class="linksPag">
+            <ul class="links">
+                <li><a href="/ofertas" class="header-link">Ofertas</a></li>
+                <li><a href="/tiendasOficiales" class="header-link">Tiendas Oficiales</a></li>
+                <li><a href="/Vender" class="header-link">Vender</a></li>
+                <li><a href="/Ayuda" class="header-link">Ayuda</a></li>
+            </ul>
+            <ul class="links">
+                <li><a href="/cuenta" class="header-link">Crea tu cuenta<i class="fa-regular fa-address-card"></i></a>
+                </li>
+                <li><a href="/compras" class="header-link">Mis Compras<i class="fa-solid fa-basket-shopping"></i></a>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </header>
+
+    <main class="register container my-3 ">
+        
+        <form action="/" method="get" class="row">
+            <div class="mb-3 d-flex justify-content-center ">
+              <label for="nombre" class="form-label"></label>
+              <input type="text" class="form-control" id="nombre" aria-describedby="nombre"
+              placeholder="Nombre y apellido" 
+              value="">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+
+            <div class="mb-3 d-flex justify-content-center ">
+                <label for="nombre" class="form-label"></label>
+                <input type="text" class="form-control" id="nombre" aria-describedby="nombre"
+                placeholder="Nombre de usuario"
+                value="" >
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+
+            <div class="mb-3 d-flex justify-content-center ">
+                <label for="email" class="form-label"></label>
+                <input type="email" class="form-control" id="email" aria-describedby="email"
+                placeholder="E-mail"
+                value="">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+
+              <div class="mb-3 row justify-content-center my-4 mx-1 ">
+                <h5 class="">Fecha de nacimiento</h5>
+                <label for="Fecha " class="form-label"></label>
+                <input type="date" class="form-control " id="Fecha" aria-describedby="Fecha"
+                value="">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+
+              <div class="mb-3 d-flex justify-content-center ">
+                <label for="domicilio" class="form-label"></label>
+                <input type="domicilio" class="form-control" id="domicilio" aria-describedby="domicilio"
+                placeholder="Domicilio" 
+                value="">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              
+              <div class="col-12 row my-4 mx-1">
+             <h5 class="col-12">Perfil de usuario</h5>
+             <div class="col-6">
+                <label for="comprador">Comprador</label>
+                <input type="radio" name="Perfil" id="comprador" value="Comprador">
+             </div>
+             <div class="col-6">
+                <label for="Vendedor">Vendedor</label>
+                <input type="radio" name="Perfil" id="Vendedor" value="Vendedor">
+             </div>
+              </div>
+
+             <div class="col-12 row my-4 mx-1">
+             <div class="form-check">
+                <h5 class="">Intereses</h5>
+                <input class="form-check-input p-2 mb-3" type="checkbox" value="" id="Electro">
+                <label class="form-check-label" for="Electro">Electro</label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input p-2 mb-3" type="checkbox" value="" id="Moda" >
+                <label class="form-check-label" for="Moda">Moda</label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input p-2 mb-3" type="checkbox" value="" id="Hogar" >
+                <label class="form-check-label" for="Hogar">Hogar</label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input p-2 mb-3" type="checkbox" value="" id="Jugueteria" >
+                <label class="form-check-label" for="Jugueteria">Jugueteria</label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input p-2 mb-3" type="checkbox" value="" id="Vida sana" >
+                <label class="form-check-label" for="Vida sana">Vida sana</label>
+              </div>
+          </div>
+        </div>
+
+ 
+        <div class=" gap-1 row justify-content-center">
+            <button class="btn btn-primary col-4" type="reset">Limpiar</button>
+            <button class="btn btn-primary col-4" type="submit">Enviar</button>
+          </div>
+
+    </form>
+
+     </main>
+
+    <footer class="home-footer">
+
+        <div class="credit">
+            <i class="fa-solid fa-credit-card"></i>
+        </div>
+        <h2>Pagá con tarjeta o en efectivo</h2>
+
+        <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es
+            seguro!</p>
+
+        <div class="regalo">
+            <i class="fa-solid fa-gift"></i>
+        </div>
+        <h2>Envío gratis desde $ 2.500</h2>
+
+        <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+            productos. Es un beneficio de Mercado Puntos.</p>
+
+        <div class="user">
+            <i class="fa-solid fa-user-shield"></i>
+        </div>
+        <h2>Seguridad, de principio a fin</h2>
+
+        <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+            porque estás siempre protegid@.</p>
+
+        <h2>Copyright © 1999-2020 MercadoLiebre S.R.L.</h2>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

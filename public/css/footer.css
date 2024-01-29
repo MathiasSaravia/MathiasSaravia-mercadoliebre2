@@ -1,8 +1,12 @@
 /*FOOTER*/
+footer{
+    background-color: white;
+}
 .credit{
     text-align: center;
     color: var(--colorceleste);
     font-size: 2em;
+    padding-top: 20px;
     
 }
 .credit i {
