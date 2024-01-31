@@ -58,18 +58,57 @@ footer{
 
 
     /*FOOTER*/
-    .credit{}
+    .credit{
+    padding: 0;
+}
     
-    .credit i {}
+    .credit i {
+    font-size: 45px;
+}
     
     .user{}
     
-    .user i {}
+    .user i {
+        font-size: 45px;
+    }
     
     .regalo{}
     
-    .regalo i {}
+    .regalo i {font-size: 45px;}
     
-    
+    div.credit i:hover{
+        background-color: var(--colorgris2);
+    }
+    div.user i:hover{
+        background-color: var(--colorgris2);
+    }
+    div.regalo i:hover{
+        background-color: var(--colorgris2);
+    }
+
+    section.footer-home{
+    display: flex;
+}
+
+section.footer-home article h2{
+    font-size: 20px;
+    margin: 0;
+    color:rgb(41, 40, 40);
+}
+section.footer-home article p{
+    font-size: 10px;
+    color: var(--colorgris);
+}
+
+section.footer-home article{
+    margin-left:10px ;
+}
+
+footer.home-footer h2{
+    color:rgb(41, 40, 40);
+font-size: 15px;
+}
+
+
     }
 

@@ -1,3 +1,7 @@
 main.cuenta{
     background-color: var(--colorblanco);
 }
+
+button:hover{
+    background-color: var(--colorhover);
+}

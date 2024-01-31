@@ -9,7 +9,9 @@
     --colorceleste : #1259c3;
     --colorgris: #666;
     --colorblanco : #ebebeb;
-    --colorverde : #39b54a;     
+    --colorverde : #39b54a;   
+    --colorhover:  #0022AA; 
+    --colorgris2: #c9c2c2; 
 }
 
 * {
