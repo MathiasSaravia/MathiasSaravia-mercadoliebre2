@@ -42,7 +42,7 @@ article.productos div.envio i{
     
 }
 
-div.envio i:hover{
+.productos:hover i{
     animation-name: rotate;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
