@@ -18,7 +18,12 @@ article.productos{
     margin: 10px;
     border: solid 1px #ebebeb;
     background-color: white;
+    transition: box-shadow 0.3s ease;
 }
+
+.productos:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
 
 article.productos div.envio{
     border: solid 1px var(--colorverde);
@@ -26,13 +31,22 @@ article.productos div.envio{
     width: 15%;
     height: 39px;
     margin-left: 16px;
+
 }
+
+
 
 article.productos div.envio i{
     color: var(--colorverde);
     padding-top: 6px;
-  
     
+}
+
+div.envio i:hover{
+    animation-name: rotate;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
 }
 
 article.productos figure{}
@@ -62,10 +76,25 @@ article.productos p.descuento {
 article.productos p.descripcion{
     font-size: var(--descuentos-descripciones);
     display: none;
-    text-align: left;
     margin-left: 5%;
     color: black;
+    opacity: 0;
+ 
 }
+
+.productos .descrip {
+    font-size: 20px;
+    padding-left: 13px;
+    margin: 0;
+    text-align: start;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+}
+.productos:hover .descrip{
+    opacity: 1;
+  }
+  
 
 
 @media (min-width:361px){
@@ -99,7 +128,13 @@ article.productos p.descuento {}
 
 article.productos p.descripcion{
     display: contents;
+    transition: opacity 0.3s ease;
 }
+
+.productos:hover .descripcion {
+    opacity: 1;
+  }
+
 
 article.productos div.envio{
     border-radius: 100%;
