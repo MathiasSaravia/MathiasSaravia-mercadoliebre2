@@ -10,14 +10,22 @@ main.home-main{
     font-size: 24px;
     color:black;
     margin-top: 0px;
+    padding-top: 10px;
 
+}
+main.home-main div{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 article.productos{
+    display: flex;
     padding-bottom: 10px;
     margin: 10px;
     border: solid 1px #ebebeb;
     background-color: white;
+    width: 100%;
+    flex-direction: column;
 }
 
 article.productos div.envio{
@@ -80,9 +88,14 @@ div img{}
 
 article.productos div.envio{}
 
+main.home-main div{
+    justify-content: space-around;
+}
+
 article.productos{
     margin-left: 10px;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 43%;
 
 }
 
@@ -123,7 +136,13 @@ article.productos div.envio i{}
     
     .visita{}
     
-    article.productos{}
+    main.home-main div{
+        justify-content: space-around;
+    }
+
+    article.productos{
+        width: 20%;
+    }
 
     article.productos div.envio{}
     
