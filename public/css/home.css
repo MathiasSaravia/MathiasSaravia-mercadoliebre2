@@ -6,6 +6,12 @@ main.home-main{
     padding-bottom: 8px;
 }
 
+main.home-main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .visita{
     font-size: 24px;
     color:black;
@@ -13,17 +19,14 @@ main.home-main{
 
 }
 
-main.home-main section{
-}
-
-article.productos{
+article.productos{ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
     padding-bottom: 10px;
     margin: 10px;
     border: solid 1px #ebebeb;
     background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
 }
 
 article.productos div.envio{
@@ -32,9 +35,6 @@ article.productos div.envio{
     width: 15%;
     height: 39px;
     margin-left: 16px;
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
 }
 
 article.productos div.envio i{
@@ -66,7 +66,7 @@ article.productos p.descuento {
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 article.productos p.descripcion{
     font-size: var(--descuentos-descripciones);
@@ -87,38 +87,29 @@ div img{}
 
 .visita{}
 
+
+
 article.productos div.envio{}
 
 article.productos{
     margin-left: 10px;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 47%;
+
 }
 
 article.productos figure{}
 
 article.productos figure img{}
 
-main.home-main section{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 article.productos p{
 }
 
-article.productos p.precio {
-    display: flex;
-}
+article.productos p.precio {}
 
-article.productos p.descuento {
-    display: flex;
-}
+article.productos p.descuento {}
 
 article.productos p.descripcion{
     display: contents;
-    display: flex;
-    order: -1;
 }
 
 article.productos div.envio{
@@ -142,26 +133,14 @@ article.productos div.envio i{}
     div img{}
     
     .visita{}
-
-    main.home-main section{
-        display: flex;
-    }
-
-    article.productos{
-    width: 22.1%;
-    height: 314px;
-}
+    
+    article.productos{}
 
     article.productos div.envio{}
     
-    article.productos figure{
-        margin: 0;
-    }
+    article.productos figure{}
     
-    article.productos figure img{
-    display: flex;
-    width: 100%;
-}
+    article.productos figure img{}
     
     article.productos p{}
     
@@ -172,9 +151,7 @@ article.productos div.envio i{}
     article.productos p.descripcion{}
 
     article.productos div.envio{
-    width: 34px;
-    bottom: 55px;
-    height: 30px;
+    width: 40px;
 }
 
     article.productos div.envio i{}
